@@ -1,8 +1,10 @@
--- Eliminar tablas si existen
+CREATE DATABASE time_store
+    
+/*
 DROP TABLE IF EXISTS pagos CASCADE;
 DROP TABLE IF EXISTS carrito CASCADE;
 DROP TABLE IF EXISTS productos CASCADE;
-DROP TABLE IF EXISTS usuarios CASCADE;
+DROP TABLE IF EXISTS usuarios CASCADE;*/
 
 -- Crear tablas
 CREATE TABLE usuarios (
